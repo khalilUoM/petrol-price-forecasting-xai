@@ -1,0 +1,12 @@
+% tab:selected: Selected look-back windows (weeks) and hyper-parameters.
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccccccccccc}
+\hline
+Model & $L^*$ PK & $L^*$ SA & Conv layers & Filters & Kernel & Rec. layers & Units & Dense & Dropout & LR & Batch & Loss \\ \hline
+LSTM & 3 & 2 & -- & -- & -- & 1 & 64 & 16 & 0.0 & 0.001 & 16 & mse \\
+Bi-LSTM & 12 & 2 & -- & -- & -- & 2 & 64 & 16 & 0.1 & 0.001 & 32 & mse \\
+CNN-LSTM & 3 & 2 & 1 & 64 & 3 & 2 & 32 & 16 & 0.3 & 0.001 & 32 & mse \\
+CNN-LSTM-Att & 15 & 1 & 1 & 32 & 2 & 2 & 64 & 16 & 0.3 & 0.001 & 16 & mse \\
+CNN-GRU & 3 & 6 & 2 & 64 & 3 & 2 & 50 & 32 & 0.0 & 0.001 & 32 & mse \\
+\hline
+\end{tabular}}

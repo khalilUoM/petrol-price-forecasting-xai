@@ -1,0 +1,25 @@
+% tab:ablation: Ablation study.
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llccc}
+\hline
+Country & Variant & RMSE (mean) & SD & DM p vs full \\ \hline
+Pakistan & Proposed CNN-LSTM (full) & 8.466 & 0.0625 & -- \\
+Pakistan & CNN-LSTM without AR highway & 8.461 & 0.0552 & 0.934 \\
+Pakistan & LSTM only (no convolution) & 8.489 & 0.0140 & 0.390 \\
+Pakistan & CNN only (no recurrence) & 8.628 & 0.0688 & 0.031 \\
+Pakistan & CNN-LSTM without dropout & 8.453 & 0.0495 & 0.246 \\
+Pakistan & CNN-LSTM price only & 8.610 & 0.0049 & 0.070 \\
+Pakistan & CNN-LSTM without exchange rate & 8.545 & 0.0219 & 0.076 \\
+Pakistan & CNN-LSTM without uncertainty & 8.446 & 0.0401 & 0.259 \\
+Pakistan & CNN-LSTM without crude price & 8.592 & 0.0199 & 0.122 \\
+Saudi Arabia & Proposed CNN-LSTM (full) & 0.0551 & -- & -- \\
+Saudi Arabia & CNN-LSTM without AR highway & 0.0544 & -- & 0.052 \\
+Saudi Arabia & LSTM only (no convolution) & 0.0556 & -- & 0.209 \\
+Saudi Arabia & CNN only (no recurrence) & 0.0550 & -- & 0.848 \\
+Saudi Arabia & CNN-LSTM without dropout & 0.0552 & -- & 0.094 \\
+Saudi Arabia & CNN-LSTM price only & 0.0544 & -- & 0.025 \\
+Saudi Arabia & CNN-LSTM without exchange rate & 0.0553 & -- & 0.381 \\
+Saudi Arabia & CNN-LSTM without uncertainty & 0.0546 & -- & 0.033 \\
+Saudi Arabia & CNN-LSTM without crude price & 0.0548 & -- & 0.268 \\
+\hline
+\end{tabular}}

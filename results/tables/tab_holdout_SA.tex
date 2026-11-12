@@ -1,0 +1,18 @@
+% tab:holdout_SA: Chronological hold-out test results, Saudi Arabia.
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccccccc}
+\hline
+Model & RMSE (SAR/litre) & MAE & rRMSE (\%) & MAPE (\%) & MASE & Theil's U2 & $R^2$ \\ \hline
+Naive (persistence) & 0.0000 & 0.0000 & 0.00 & 0.00 & 0.000 & -- & -- \\
+Seasonal naive (52 wk) & 0.0000 & 0.0000 & 0.00 & 0.00 & 0.000 & -- & -- \\
+Random walk + drift & 0.0028 & 0.0028 & 0.12 & 0.12 & 0.316 & -- & -- \\
+ARIMA & 0.0023 & 0.0023 & 0.10 & 0.10 & 0.256 & -- & -- \\
+ARIMAX & 0.0023 & 0.0022 & 0.10 & 0.10 & 0.255 & -- & -- \\
+SVR & 0.0000 & 0.0000 & 0.00 & 0.00 & 0.003 & -- & -- \\
+LSTM & 0.0021 $\pm$ 0.0003 & 0.0020 $\pm$ 0.0004 & 0.09 & 0.09 & 0.228 & -- & -- \\
+Bi-LSTM & 0.0022 $\pm$ 0.0003 & 0.0020 $\pm$ 0.0004 & 0.09 & 0.09 & 0.231 & -- & -- \\
+CNN-LSTM & 0.0019 $\pm$ 0.0002 & 0.0017 $\pm$ 0.0003 & 0.08 & 0.08 & 0.199 & -- & -- \\
+CNN-LSTM-Att & 0.0017 $\pm$ 0.0001 & 0.0015 $\pm$ 0.0001 & 0.07 & 0.06 & 0.166 & -- & -- \\
+CNN-GRU & 0.0019 $\pm$ 0.0002 & 0.0016 $\pm$ 0.0002 & 0.08 & 0.07 & 0.182 & -- & -- \\
+\hline
+\end{tabular}}

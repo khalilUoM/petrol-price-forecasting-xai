@@ -1,0 +1,17 @@
+{
+  "python": "3.12.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.0",
+  "statsmodels": "0.15.0",
+  "scipy": "1.17.1",
+  "shap": "0.54.1",
+  "matplotlib": "3.11.1",
+  "gpu": [],
+  "fast_mode": false,
+  "target_mode": "diff",
+  "crude_lag_fix": true
+}

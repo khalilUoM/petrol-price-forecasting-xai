@@ -1,0 +1,11 @@
+# Versions used for the reported results (see results/environment.json; Python 3.12)
+tensorflow==2.21.0
+keras==3.15.1
+numpy==2.5.3
+pandas==3.0.5
+scikit-learn==1.9.0
+statsmodels==0.15.0
+scipy==1.17.1
+shap==0.54.1
+matplotlib==3.11.1
+openpyxl

@@ -1,0 +1,18 @@
+% tab:rolling: Rolling-origin out-of-sample results, 2019--2026.
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccccc}
+\hline
+Model & PK RMSE & PK rRMSE (\%) & PK U2 & SA RMSE & SA rRMSE (\%) & SA U2 \\ \hline
+Naive (persistence) & 7.179 & 3.70 & 1.000 & 0.0543 & 2.50 & 1.000 \\
+Seasonal naive (52 wk) & 49.559 & 25.52 & 6.904 & 0.3945 & 18.13 & 7.258 \\
+Random walk + drift & 7.168 & 3.69 & 0.998 & 0.0544 & 2.50 & 1.001 \\
+ARIMA & 7.489 & 3.86 & 1.043 & 0.0545 & 2.51 & 1.003 \\
+ARIMAX & 7.494 & 3.86 & 1.044 & 0.0544 & 2.50 & 1.000 \\
+SVR & 7.159 & 3.69 & 0.997 & 0.0544 & 2.50 & 1.000 \\
+LSTM & 7.087 & 3.65 & 0.987 & 0.0556 & 2.56 & 1.024 \\
+Bi-LSTM & 7.116 & 3.66 & 0.991 & 0.0557 & 2.56 & 1.025 \\
+CNN-LSTM & 7.215 & 3.71 & 1.005 & 0.0551 & 2.53 & 1.013 \\
+CNN-LSTM-Att & 7.232 & 3.72 & 1.007 & 0.0549 & 2.52 & 1.011 \\
+CNN-GRU & 7.192 & 3.70 & 1.002 & 0.0548 & 2.52 & 1.009 \\
+\hline
+\end{tabular}}

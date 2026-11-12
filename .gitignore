@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+__pycache__/
+R2_outputs/
+R2_outputs_FAST/
+*_package.zip
+cache/
+.DS_Store
