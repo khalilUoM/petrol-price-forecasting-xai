@@ -2,9 +2,9 @@
 
 Code, data and results for the manuscript
 
-> *Forecasting fuel prices under geopolitical uncertainty: A SHAP-explainable CNN-LSTM approach for oil-importing and oil-exporting economies (Pakistan and Saudi Arabia)* — Muhammad Adnan, Khalil Ullah, Abdallah Namoun, Riaz Ahmad, Siraj Muhammad, Ibrar Hussain (revised submission to *PLOS ONE*).
+> *Forecasting fuel prices under geopolitical uncertainty: A SHAP-explainable CNN-LSTM approach for oil-importing and oil-exporting economies (Pakistan and Saudi Arabia)* — Khalil Ullah et al.
 
-A single notebook reproduces every number, table and figure in the revised manuscript: one-week-ahead forecasts of weekly retail petrol prices (January 2013 – April 2026) with a CNN-LSTM and four other neural networks (LSTM, Bi-LSTM, CNN-GRU, CNN-LSTM-Attention), ARIMA, ARIMAX, SVR and naive benchmarks, evaluated with a chronological hold-out split and a rolling-origin design, Diebold–Mariano tests, event windows, ablations, Kernel SHAP and Grad-CAM.
+A single notebook reproduces every number, table and figure in the manuscript: one-week-ahead forecasts of weekly retail petrol prices (January 2013 – April 2026) with a CNN-LSTM and four other neural networks (LSTM, Bi-LSTM, CNN-GRU, CNN-LSTM-Attention), ARIMA, ARIMAX, SVR and naive benchmarks, evaluated with a chronological hold-out split and a rolling-origin design, Diebold–Mariano tests, event windows, ablations, Kernel SHAP and Grad-CAM.
 
 ## Repository contents
 
